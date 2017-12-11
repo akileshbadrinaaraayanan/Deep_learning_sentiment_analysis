@@ -1,0 +1,824 @@
+loading data... data loaded!
+model architecture: CNN-non-static
+using: word2vec vectors
+datasets loaded
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 32), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 59.59 secs, train perf: 44.60 %, val perf: 50.00 %
+epoch: 2, training time: 59.69 secs, train perf: 55.13 %, val perf: 40.62 %
+epoch: 3, training time: 38.97 secs, train perf: 65.08 %, val perf: 28.12 %
+epoch: 4, training time: 22.90 secs, train perf: 75.50 %, val perf: 34.38 %
+epoch: 5, training time: 11.13 secs, train perf: 84.57 %, val perf: 37.50 %
+epoch: 6, training time: 12.20 secs, train perf: 88.87 %, val perf: 37.50 %
+epoch: 7, training time: 57.90 secs, train perf: 93.54 %, val perf: 37.50 %
+epoch: 8, training time: 59.72 secs, train perf: 96.05 %, val perf: 40.62 %
+epoch: 9, training time: 59.70 secs, train perf: 96.99 %, val perf: 43.75 %
+epoch: 10, training time: 59.67 secs, train perf: 98.61 %, val perf: 40.62 %
+epochs 10
+batch size 32
+test perf: 0.422044276967
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 64), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 34.18 secs, train perf: 39.60 %, val perf: 25.00 %
+epoch: 2, training time: 33.99 secs, train perf: 48.43 %, val perf: 35.94 %
+epoch: 3, training time: 33.87 secs, train perf: 52.21 %, val perf: 32.81 %
+epoch: 4, training time: 34.14 secs, train perf: 61.26 %, val perf: 37.50 %
+epoch: 5, training time: 29.31 secs, train perf: 67.90 %, val perf: 37.50 %
+epoch: 6, training time: 18.35 secs, train perf: 77.51 %, val perf: 35.94 %
+epoch: 7, training time: 18.47 secs, train perf: 82.09 %, val perf: 37.50 %
+epoch: 8, training time: 6.42 secs, train perf: 84.90 %, val perf: 35.94 %
+epoch: 9, training time: 7.28 secs, train perf: 89.99 %, val perf: 32.81 %
+epoch: 10, training time: 7.24 secs, train perf: 92.04 %, val perf: 37.50 %
+epochs 10
+batch size 64
+test perf: 0.460197833255
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 128), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 21.00 secs, train perf: 28.21 %, val perf: 47.66 %
+epoch: 2, training time: 21.27 secs, train perf: 38.11 %, val perf: 28.91 %
+epoch: 3, training time: 20.99 secs, train perf: 44.62 %, val perf: 50.00 %
+epoch: 4, training time: 20.85 secs, train perf: 50.26 %, val perf: 48.44 %
+epoch: 5, training time: 21.29 secs, train perf: 52.04 %, val perf: 44.53 %
+epoch: 6, training time: 21.00 secs, train perf: 57.79 %, val perf: 46.09 %
+epoch: 7, training time: 20.97 secs, train perf: 62.83 %, val perf: 47.66 %
+epoch: 8, training time: 21.01 secs, train perf: 66.74 %, val perf: 47.66 %
+epoch: 9, training time: 21.25 secs, train perf: 72.52 %, val perf: 46.09 %
+epoch: 10, training time: 21.57 secs, train perf: 77.83 %, val perf: 43.75 %
+epochs 10
+batch size 128
+test perf: 0.412152614225
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 256), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 15.49 secs, train perf: 27.28 %, val perf: 45.31 %
+epoch: 2, training time: 15.44 secs, train perf: 34.67 %, val perf: 38.67 %
+epoch: 3, training time: 15.59 secs, train perf: 37.49 %, val perf: 33.59 %
+epoch: 4, training time: 15.60 secs, train perf: 40.00 %, val perf: 38.28 %
+epoch: 5, training time: 15.64 secs, train perf: 43.15 %, val perf: 37.50 %
+epoch: 6, training time: 15.67 secs, train perf: 47.24 %, val perf: 44.92 %
+epoch: 7, training time: 15.61 secs, train perf: 48.80 %, val perf: 46.09 %
+epoch: 8, training time: 15.59 secs, train perf: 50.45 %, val perf: 46.09 %
+epoch: 9, training time: 15.51 secs, train perf: 51.20 %, val perf: 46.88 %
+epoch: 10, training time: 15.50 secs, train perf: 56.04 %, val perf: 43.75 %
+epochs 10
+batch size 256
+test perf: 0.437117286858
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 32), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 46.44 secs, train perf: 44.60 %, val perf: 50.00 %
+epoch: 2, training time: 28.50 secs, train perf: 55.13 %, val perf: 40.62 %
+epoch: 3, training time: 10.28 secs, train perf: 65.08 %, val perf: 28.12 %
+epoch: 4, training time: 11.61 secs, train perf: 75.42 %, val perf: 31.25 %
+epoch: 5, training time: 44.10 secs, train perf: 84.92 %, val perf: 37.50 %
+epoch: 6, training time: 59.63 secs, train perf: 88.46 %, val perf: 37.50 %
+epoch: 7, training time: 59.51 secs, train perf: 94.18 %, val perf: 37.50 %
+epoch: 8, training time: 59.47 secs, train perf: 96.11 %, val perf: 34.38 %
+epoch: 9, training time: 59.50 secs, train perf: 96.97 %, val perf: 43.75 %
+epoch: 10, training time: 59.40 secs, train perf: 98.73 %, val perf: 34.38 %
+epoch: 11, training time: 59.39 secs, train perf: 98.78 %, val perf: 40.62 %
+epoch: 12, training time: 32.52 secs, train perf: 99.51 %, val perf: 40.62 %
+epoch: 13, training time: 19.48 secs, train perf: 99.67 %, val perf: 43.75 %
+epoch: 14, training time: 12.03 secs, train perf: 99.72 %, val perf: 46.88 %
+epoch: 15, training time: 16.49 secs, train perf: 99.85 %, val perf: 43.75 %
+epoch: 16, training time: 59.59 secs, train perf: 99.89 %, val perf: 46.88 %
+epoch: 17, training time: 59.65 secs, train perf: 99.93 %, val perf: 37.50 %
+epoch: 18, training time: 59.71 secs, train perf: 99.96 %, val perf: 50.00 %
+epoch: 19, training time: 59.51 secs, train perf: 99.95 %, val perf: 46.88 %
+epoch: 20, training time: 59.64 secs, train perf: 99.93 %, val perf: 43.75 %
+epoch: 21, training time: 59.60 secs, train perf: 99.95 %, val perf: 53.12 %
+epoch: 22, training time: 48.98 secs, train perf: 99.99 %, val perf: 46.88 %
+epoch: 23, training time: 30.95 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 24, training time: 10.89 secs, train perf: 99.99 %, val perf: 50.00 %
+epoch: 25, training time: 11.66 secs, train perf: 99.98 %, val perf: 43.75 %
+epochs 25
+batch size 32
+test perf: 0.4470089496
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 64), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 34.11 secs, train perf: 39.60 %, val perf: 25.00 %
+epoch: 2, training time: 34.19 secs, train perf: 48.43 %, val perf: 35.94 %
+epoch: 3, training time: 34.21 secs, train perf: 52.20 %, val perf: 32.81 %
+epoch: 4, training time: 34.38 secs, train perf: 61.47 %, val perf: 37.50 %
+epoch: 5, training time: 34.62 secs, train perf: 68.29 %, val perf: 35.94 %
+epoch: 6, training time: 34.05 secs, train perf: 77.65 %, val perf: 35.94 %
+epoch: 7, training time: 33.94 secs, train perf: 82.23 %, val perf: 35.94 %
+epoch: 8, training time: 34.35 secs, train perf: 84.56 %, val perf: 34.38 %
+epoch: 9, training time: 33.99 secs, train perf: 88.99 %, val perf: 32.81 %
+epoch: 10, training time: 33.42 secs, train perf: 91.57 %, val perf: 35.94 %
+epoch: 11, training time: 33.78 secs, train perf: 96.09 %, val perf: 34.38 %
+epoch: 12, training time: 32.70 secs, train perf: 97.59 %, val perf: 34.38 %
+epoch: 13, training time: 18.20 secs, train perf: 97.71 %, val perf: 31.25 %
+epoch: 14, training time: 17.94 secs, train perf: 98.91 %, val perf: 31.25 %
+epoch: 15, training time: 10.11 secs, train perf: 99.26 %, val perf: 31.25 %
+epoch: 16, training time: 6.29 secs, train perf: 99.43 %, val perf: 34.38 %
+epoch: 17, training time: 6.69 secs, train perf: 99.51 %, val perf: 32.81 %
+epoch: 18, training time: 6.80 secs, train perf: 99.43 %, val perf: 32.81 %
+epoch: 19, training time: 14.86 secs, train perf: 99.69 %, val perf: 37.50 %
+epoch: 20, training time: 33.88 secs, train perf: 99.77 %, val perf: 34.38 %
+epoch: 21, training time: 33.89 secs, train perf: 99.82 %, val perf: 37.50 %
+epoch: 22, training time: 33.96 secs, train perf: 99.85 %, val perf: 39.06 %
+epoch: 23, training time: 33.89 secs, train perf: 99.93 %, val perf: 34.38 %
+epoch: 24, training time: 34.06 secs, train perf: 99.95 %, val perf: 37.50 %
+epoch: 25, training time: 33.94 secs, train perf: 99.95 %, val perf: 34.38 %
+epochs 25
+batch size 64
+test perf: 0.469618464437
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 128), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 20.97 secs, train perf: 28.21 %, val perf: 47.66 %
+epoch: 2, training time: 20.81 secs, train perf: 38.18 %, val perf: 28.91 %
+epoch: 3, training time: 20.99 secs, train perf: 44.56 %, val perf: 50.78 %
+epoch: 4, training time: 20.80 secs, train perf: 50.31 %, val perf: 49.22 %
+epoch: 5, training time: 21.00 secs, train perf: 51.94 %, val perf: 42.97 %
+epoch: 6, training time: 20.99 secs, train perf: 57.86 %, val perf: 46.88 %
+epoch: 7, training time: 20.99 secs, train perf: 62.55 %, val perf: 47.66 %
+epoch: 8, training time: 21.28 secs, train perf: 66.54 %, val perf: 46.09 %
+epoch: 9, training time: 21.50 secs, train perf: 72.74 %, val perf: 45.31 %
+epoch: 10, training time: 12.67 secs, train perf: 77.50 %, val perf: 43.75 %
+epoch: 11, training time: 11.75 secs, train perf: 79.58 %, val perf: 41.41 %
+epoch: 12, training time: 11.87 secs, train perf: 79.93 %, val perf: 44.53 %
+epoch: 13, training time: 10.34 secs, train perf: 84.45 %, val perf: 45.31 %
+epoch: 14, training time: 3.78 secs, train perf: 88.57 %, val perf: 45.31 %
+epoch: 15, training time: 4.23 secs, train perf: 90.33 %, val perf: 44.53 %
+epoch: 16, training time: 4.42 secs, train perf: 93.48 %, val perf: 42.97 %
+epoch: 17, training time: 4.32 secs, train perf: 95.45 %, val perf: 39.84 %
+epoch: 18, training time: 4.24 secs, train perf: 95.98 %, val perf: 42.97 %
+epoch: 19, training time: 4.19 secs, train perf: 97.00 %, val perf: 46.88 %
+epoch: 20, training time: 5.84 secs, train perf: 96.50 %, val perf: 42.19 %
+epoch: 21, training time: 20.96 secs, train perf: 98.30 %, val perf: 42.97 %
+epoch: 22, training time: 21.00 secs, train perf: 98.40 %, val perf: 46.88 %
+epoch: 23, training time: 21.02 secs, train perf: 98.67 %, val perf: 43.75 %
+epoch: 24, training time: 20.99 secs, train perf: 98.58 %, val perf: 42.19 %
+epoch: 25, training time: 21.02 secs, train perf: 99.35 %, val perf: 45.31 %
+epochs 25
+batch size 128
+test perf: 0.407442298634
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 256), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 15.56 secs, train perf: 27.28 %, val perf: 45.31 %
+epoch: 2, training time: 15.52 secs, train perf: 34.67 %, val perf: 38.67 %
+epoch: 3, training time: 15.54 secs, train perf: 37.49 %, val perf: 33.59 %
+epoch: 4, training time: 15.63 secs, train perf: 40.05 %, val perf: 38.28 %
+epoch: 5, training time: 15.45 secs, train perf: 43.16 %, val perf: 37.89 %
+epoch: 6, training time: 15.63 secs, train perf: 47.23 %, val perf: 45.31 %
+epoch: 7, training time: 15.56 secs, train perf: 48.83 %, val perf: 47.27 %
+epoch: 8, training time: 15.46 secs, train perf: 50.52 %, val perf: 45.70 %
+epoch: 9, training time: 15.57 secs, train perf: 51.16 %, val perf: 47.27 %
+epoch: 10, training time: 15.64 secs, train perf: 56.26 %, val perf: 43.36 %
+epoch: 11, training time: 15.56 secs, train perf: 59.33 %, val perf: 44.53 %
+epoch: 12, training time: 15.67 secs, train perf: 61.45 %, val perf: 43.75 %
+epoch: 13, training time: 15.64 secs, train perf: 63.82 %, val perf: 46.48 %
+epoch: 14, training time: 15.63 secs, train perf: 61.61 %, val perf: 44.92 %
+epoch: 15, training time: 15.63 secs, train perf: 68.64 %, val perf: 44.14 %
+epoch: 16, training time: 15.66 secs, train perf: 73.27 %, val perf: 47.27 %
+epoch: 17, training time: 15.54 secs, train perf: 74.69 %, val perf: 44.92 %
+epoch: 18, training time: 15.67 secs, train perf: 72.96 %, val perf: 44.92 %
+epoch: 19, training time: 15.60 secs, train perf: 76.92 %, val perf: 44.92 %
+epoch: 20, training time: 15.66 secs, train perf: 77.43 %, val perf: 47.27 %
+epoch: 21, training time: 10.19 secs, train perf: 83.15 %, val perf: 47.66 %
+epoch: 22, training time: 9.10 secs, train perf: 85.12 %, val perf: 46.88 %
+epoch: 23, training time: 9.20 secs, train perf: 88.40 %, val perf: 45.31 %
+epoch: 24, training time: 9.12 secs, train perf: 86.19 %, val perf: 46.09 %
+epoch: 25, training time: 9.17 secs, train perf: 83.47 %, val perf: 44.92 %
+epochs 25
+batch size 256
+test perf: 0.473857748469
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 32), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 10.83 secs, train perf: 44.60 %, val perf: 50.00 %
+epoch: 2, training time: 11.33 secs, train perf: 55.39 %, val perf: 40.62 %
+epoch: 3, training time: 58.78 secs, train perf: 65.47 %, val perf: 31.25 %
+epoch: 4, training time: 59.48 secs, train perf: 75.78 %, val perf: 31.25 %
+epoch: 5, training time: 59.60 secs, train perf: 83.96 %, val perf: 40.62 %
+epoch: 6, training time: 59.67 secs, train perf: 89.10 %, val perf: 37.50 %
+epoch: 7, training time: 59.61 secs, train perf: 93.61 %, val perf: 37.50 %
+epoch: 8, training time: 59.59 secs, train perf: 96.84 %, val perf: 37.50 %
+epoch: 9, training time: 52.90 secs, train perf: 96.58 %, val perf: 40.62 %
+epoch: 10, training time: 30.25 secs, train perf: 98.94 %, val perf: 37.50 %
+epoch: 11, training time: 13.30 secs, train perf: 98.54 %, val perf: 40.62 %
+epoch: 12, training time: 11.21 secs, train perf: 99.43 %, val perf: 37.50 %
+epoch: 13, training time: 21.27 secs, train perf: 99.62 %, val perf: 40.62 %
+epoch: 14, training time: 59.63 secs, train perf: 99.83 %, val perf: 40.62 %
+epoch: 15, training time: 59.70 secs, train perf: 99.89 %, val perf: 43.75 %
+epoch: 16, training time: 59.42 secs, train perf: 99.89 %, val perf: 43.75 %
+epoch: 17, training time: 59.57 secs, train perf: 99.96 %, val perf: 43.75 %
+epoch: 18, training time: 59.62 secs, train perf: 99.91 %, val perf: 43.75 %
+epoch: 19, training time: 59.47 secs, train perf: 99.95 %, val perf: 40.62 %
+epoch: 20, training time: 46.03 secs, train perf: 99.96 %, val perf: 40.62 %
+epoch: 21, training time: 28.77 secs, train perf: 99.96 %, val perf: 40.62 %
+epoch: 22, training time: 9.62 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 23, training time: 11.51 secs, train perf: 99.99 %, val perf: 46.88 %
+epoch: 24, training time: 25.67 secs, train perf: 99.99 %, val perf: 50.00 %
+epoch: 25, training time: 59.40 secs, train perf: 99.99 %, val perf: 40.62 %
+epoch: 26, training time: 59.61 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 27, training time: 59.74 secs, train perf: 99.99 %, val perf: 46.88 %
+epoch: 28, training time: 59.68 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 29, training time: 59.48 secs, train perf: 100.00 %, val perf: 53.12 %
+epoch: 30, training time: 59.54 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 31, training time: 42.78 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 32, training time: 26.81 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 33, training time: 10.29 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 34, training time: 11.04 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 35, training time: 35.05 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 36, training time: 59.66 secs, train perf: 99.99 %, val perf: 43.75 %
+epoch: 37, training time: 59.61 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 38, training time: 59.56 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 39, training time: 59.71 secs, train perf: 99.99 %, val perf: 43.75 %
+epoch: 40, training time: 59.65 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 41, training time: 59.63 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 42, training time: 37.17 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 43, training time: 22.70 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 44, training time: 10.90 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 45, training time: 11.65 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 46, training time: 59.53 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 47, training time: 59.50 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 48, training time: 59.46 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 49, training time: 59.51 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 50, training time: 59.43 secs, train perf: 100.00 %, val perf: 40.62 %
+epochs 50
+batch size 32
+test perf: 0.426283560999
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 64), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 34.03 secs, train perf: 39.60 %, val perf: 25.00 %
+epoch: 2, training time: 33.99 secs, train perf: 48.44 %, val perf: 35.94 %
+epoch: 3, training time: 31.89 secs, train perf: 52.23 %, val perf: 34.38 %
+epoch: 4, training time: 18.15 secs, train perf: 61.15 %, val perf: 39.06 %
+epoch: 5, training time: 18.04 secs, train perf: 68.04 %, val perf: 35.94 %
+epoch: 6, training time: 9.01 secs, train perf: 77.10 %, val perf: 37.50 %
+epoch: 7, training time: 6.88 secs, train perf: 82.31 %, val perf: 35.94 %
+epoch: 8, training time: 9.90 secs, train perf: 85.33 %, val perf: 31.25 %
+epoch: 9, training time: 33.84 secs, train perf: 89.76 %, val perf: 31.25 %
+epoch: 10, training time: 33.99 secs, train perf: 91.70 %, val perf: 37.50 %
+epoch: 11, training time: 33.99 secs, train perf: 96.35 %, val perf: 35.94 %
+epoch: 12, training time: 33.94 secs, train perf: 97.39 %, val perf: 37.50 %
+epoch: 13, training time: 33.86 secs, train perf: 98.04 %, val perf: 31.25 %
+epoch: 14, training time: 33.94 secs, train perf: 98.73 %, val perf: 29.69 %
+epoch: 15, training time: 33.85 secs, train perf: 99.25 %, val perf: 29.69 %
+epoch: 16, training time: 33.91 secs, train perf: 99.25 %, val perf: 37.50 %
+epoch: 17, training time: 33.79 secs, train perf: 99.54 %, val perf: 34.38 %
+epoch: 18, training time: 34.15 secs, train perf: 99.50 %, val perf: 31.25 %
+epoch: 19, training time: 34.01 secs, train perf: 99.70 %, val perf: 34.38 %
+epoch: 20, training time: 33.48 secs, train perf: 99.72 %, val perf: 37.50 %
+epoch: 21, training time: 18.51 secs, train perf: 99.73 %, val perf: 37.50 %
+epoch: 22, training time: 18.12 secs, train perf: 99.86 %, val perf: 34.38 %
+epoch: 23, training time: 10.07 secs, train perf: 99.90 %, val perf: 37.50 %
+epoch: 24, training time: 6.99 secs, train perf: 99.96 %, val perf: 35.94 %
+epoch: 25, training time: 7.38 secs, train perf: 99.96 %, val perf: 32.81 %
+epoch: 26, training time: 33.66 secs, train perf: 99.98 %, val perf: 31.25 %
+epoch: 27, training time: 33.82 secs, train perf: 99.98 %, val perf: 31.25 %
+epoch: 28, training time: 33.87 secs, train perf: 99.96 %, val perf: 32.81 %
+epoch: 29, training time: 33.86 secs, train perf: 99.98 %, val perf: 32.81 %
+epoch: 30, training time: 33.97 secs, train perf: 99.98 %, val perf: 29.69 %
+epoch: 31, training time: 33.91 secs, train perf: 99.98 %, val perf: 32.81 %
+epoch: 32, training time: 33.95 secs, train perf: 99.99 %, val perf: 29.69 %
+epoch: 33, training time: 34.00 secs, train perf: 99.98 %, val perf: 32.81 %
+epoch: 34, training time: 33.86 secs, train perf: 99.99 %, val perf: 32.81 %
+epoch: 35, training time: 33.90 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 36, training time: 33.77 secs, train perf: 99.99 %, val perf: 35.94 %
+epoch: 37, training time: 33.65 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 38, training time: 18.87 secs, train perf: 100.00 %, val perf: 29.69 %
+epoch: 39, training time: 17.50 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 40, training time: 12.47 secs, train perf: 99.99 %, val perf: 34.38 %
+epoch: 41, training time: 6.01 secs, train perf: 99.98 %, val perf: 37.50 %
+epoch: 42, training time: 7.02 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 43, training time: 25.20 secs, train perf: 99.99 %, val perf: 34.38 %
+epoch: 44, training time: 33.96 secs, train perf: 99.99 %, val perf: 28.12 %
+epoch: 45, training time: 33.90 secs, train perf: 100.00 %, val perf: 34.38 %
+epoch: 46, training time: 33.86 secs, train perf: 100.00 %, val perf: 35.94 %
+epoch: 47, training time: 33.85 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 48, training time: 34.00 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 49, training time: 34.10 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 50, training time: 34.08 secs, train perf: 100.00 %, val perf: 34.38 %
+epochs 50
+batch size 64
+test perf: 0.479510127179
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 128), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 21.02 secs, train perf: 28.21 %, val perf: 47.66 %
+epoch: 2, training time: 20.87 secs, train perf: 38.11 %, val perf: 28.91 %
+epoch: 3, training time: 21.00 secs, train perf: 44.62 %, val perf: 50.00 %
+epoch: 4, training time: 21.09 secs, train perf: 50.26 %, val perf: 48.44 %
+epoch: 5, training time: 20.96 secs, train perf: 51.97 %, val perf: 44.53 %
+epoch: 6, training time: 21.55 secs, train perf: 57.71 %, val perf: 46.88 %
+epoch: 7, training time: 19.33 secs, train perf: 62.81 %, val perf: 46.09 %
+epoch: 8, training time: 11.97 secs, train perf: 66.92 %, val perf: 46.09 %
+epoch: 9, training time: 12.05 secs, train perf: 72.58 %, val perf: 44.53 %
+epoch: 10, training time: 12.25 secs, train perf: 77.92 %, val perf: 45.31 %
+epoch: 11, training time: 7.36 secs, train perf: 79.63 %, val perf: 42.19 %
+epoch: 12, training time: 3.91 secs, train perf: 80.44 %, val perf: 46.88 %
+epoch: 13, training time: 4.69 secs, train perf: 84.30 %, val perf: 45.31 %
+epoch: 14, training time: 4.55 secs, train perf: 88.72 %, val perf: 42.19 %
+epoch: 15, training time: 11.86 secs, train perf: 90.48 %, val perf: 43.75 %
+epoch: 16, training time: 21.05 secs, train perf: 93.85 %, val perf: 42.97 %
+epoch: 17, training time: 21.01 secs, train perf: 95.32 %, val perf: 42.97 %
+epoch: 18, training time: 21.00 secs, train perf: 96.03 %, val perf: 44.53 %
+epoch: 19, training time: 21.03 secs, train perf: 96.91 %, val perf: 42.97 %
+epoch: 20, training time: 21.00 secs, train perf: 96.81 %, val perf: 37.50 %
+epoch: 21, training time: 20.96 secs, train perf: 98.32 %, val perf: 41.41 %
+epoch: 22, training time: 21.07 secs, train perf: 98.57 %, val perf: 42.97 %
+epoch: 23, training time: 20.98 secs, train perf: 98.65 %, val perf: 40.62 %
+epoch: 24, training time: 21.24 secs, train perf: 98.63 %, val perf: 42.97 %
+epoch: 25, training time: 20.94 secs, train perf: 99.35 %, val perf: 43.75 %
+epoch: 26, training time: 21.01 secs, train perf: 99.34 %, val perf: 45.31 %
+epoch: 27, training time: 21.01 secs, train perf: 99.45 %, val perf: 42.97 %
+epoch: 28, training time: 21.28 secs, train perf: 99.54 %, val perf: 42.19 %
+epoch: 29, training time: 20.73 secs, train perf: 99.18 %, val perf: 42.19 %
+epoch: 30, training time: 21.00 secs, train perf: 99.72 %, val perf: 40.62 %
+epoch: 31, training time: 21.00 secs, train perf: 99.72 %, val perf: 44.53 %
+epoch: 32, training time: 21.00 secs, train perf: 99.71 %, val perf: 43.75 %
+epoch: 33, training time: 21.01 secs, train perf: 99.79 %, val perf: 42.97 %
+epoch: 34, training time: 21.01 secs, train perf: 99.79 %, val perf: 42.97 %
+epoch: 35, training time: 17.22 secs, train perf: 99.84 %, val perf: 42.19 %
+epoch: 36, training time: 12.08 secs, train perf: 99.82 %, val perf: 42.97 %
+epoch: 37, training time: 12.10 secs, train perf: 99.83 %, val perf: 43.75 %
+epoch: 38, training time: 12.11 secs, train perf: 99.85 %, val perf: 43.75 %
+epoch: 39, training time: 5.26 secs, train perf: 99.90 %, val perf: 42.97 %
+epoch: 40, training time: 4.09 secs, train perf: 99.89 %, val perf: 45.31 %
+epoch: 41, training time: 4.51 secs, train perf: 99.88 %, val perf: 42.97 %
+epoch: 42, training time: 4.53 secs, train perf: 99.90 %, val perf: 45.31 %
+epoch: 43, training time: 12.73 secs, train perf: 99.91 %, val perf: 43.75 %
+epoch: 44, training time: 20.74 secs, train perf: 99.94 %, val perf: 43.75 %
+epoch: 45, training time: 21.01 secs, train perf: 99.94 %, val perf: 44.53 %
+epoch: 46, training time: 21.01 secs, train perf: 99.94 %, val perf: 42.19 %
+epoch: 47, training time: 20.99 secs, train perf: 99.98 %, val perf: 44.53 %
+epoch: 48, training time: 21.07 secs, train perf: 99.96 %, val perf: 46.88 %
+epoch: 49, training time: 20.96 secs, train perf: 99.99 %, val perf: 43.75 %
+epoch: 50, training time: 21.02 secs, train perf: 99.98 %, val perf: 45.31 %
+epochs 50
+batch size 128
+test perf: 0.412152614225
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 256), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 15.63 secs, train perf: 27.28 %, val perf: 45.31 %
+epoch: 2, training time: 15.49 secs, train perf: 34.67 %, val perf: 38.67 %
+epoch: 3, training time: 15.53 secs, train perf: 37.49 %, val perf: 33.59 %
+epoch: 4, training time: 15.64 secs, train perf: 40.03 %, val perf: 38.28 %
+epoch: 5, training time: 15.65 secs, train perf: 43.20 %, val perf: 37.89 %
+epoch: 6, training time: 15.64 secs, train perf: 47.17 %, val perf: 44.92 %
+epoch: 7, training time: 15.64 secs, train perf: 48.80 %, val perf: 46.48 %
+epoch: 8, training time: 15.53 secs, train perf: 50.52 %, val perf: 45.70 %
+epoch: 9, training time: 15.57 secs, train perf: 51.15 %, val perf: 47.66 %
+epoch: 10, training time: 15.56 secs, train perf: 56.04 %, val perf: 43.75 %
+epoch: 11, training time: 15.61 secs, train perf: 59.59 %, val perf: 45.31 %
+epoch: 12, training time: 15.63 secs, train perf: 61.36 %, val perf: 44.14 %
+epoch: 13, training time: 15.64 secs, train perf: 63.88 %, val perf: 46.48 %
+epoch: 14, training time: 15.66 secs, train perf: 61.69 %, val perf: 45.31 %
+epoch: 15, training time: 15.64 secs, train perf: 68.48 %, val perf: 43.36 %
+epoch: 16, training time: 15.66 secs, train perf: 73.35 %, val perf: 47.66 %
+epoch: 17, training time: 14.37 secs, train perf: 74.66 %, val perf: 44.92 %
+epoch: 18, training time: 9.06 secs, train perf: 73.23 %, val perf: 44.14 %
+epoch: 19, training time: 9.05 secs, train perf: 77.00 %, val perf: 44.92 %
+epoch: 20, training time: 8.89 secs, train perf: 76.65 %, val perf: 47.27 %
+epoch: 21, training time: 9.12 secs, train perf: 83.18 %, val perf: 45.70 %
+epoch: 22, training time: 7.97 secs, train perf: 84.92 %, val perf: 48.44 %
+epoch: 23, training time: 3.17 secs, train perf: 88.42 %, val perf: 44.53 %
+epoch: 24, training time: 3.10 secs, train perf: 86.21 %, val perf: 45.70 %
+epoch: 25, training time: 3.27 secs, train perf: 83.57 %, val perf: 46.09 %
+epoch: 26, training time: 3.26 secs, train perf: 90.11 %, val perf: 47.66 %
+epoch: 27, training time: 3.21 secs, train perf: 89.72 %, val perf: 46.09 %
+epoch: 28, training time: 12.49 secs, train perf: 92.87 %, val perf: 44.53 %
+epoch: 29, training time: 15.56 secs, train perf: 90.15 %, val perf: 47.66 %
+epoch: 30, training time: 15.67 secs, train perf: 94.78 %, val perf: 44.53 %
+epoch: 31, training time: 15.60 secs, train perf: 95.69 %, val perf: 43.75 %
+epoch: 32, training time: 15.64 secs, train perf: 95.57 %, val perf: 44.92 %
+epoch: 33, training time: 15.65 secs, train perf: 96.28 %, val perf: 45.31 %
+epoch: 34, training time: 15.64 secs, train perf: 96.92 %, val perf: 44.53 %
+epoch: 35, training time: 15.69 secs, train perf: 97.38 %, val perf: 46.48 %
+epoch: 36, training time: 15.60 secs, train perf: 97.08 %, val perf: 45.70 %
+epoch: 37, training time: 15.64 secs, train perf: 97.74 %, val perf: 42.58 %
+epoch: 38, training time: 15.70 secs, train perf: 98.14 %, val perf: 43.75 %
+epoch: 39, training time: 15.60 secs, train perf: 98.27 %, val perf: 42.58 %
+epoch: 40, training time: 15.65 secs, train perf: 98.32 %, val perf: 43.36 %
+epoch: 41, training time: 15.66 secs, train perf: 98.85 %, val perf: 44.53 %
+epoch: 42, training time: 15.63 secs, train perf: 98.84 %, val perf: 42.58 %
+epoch: 43, training time: 15.66 secs, train perf: 98.79 %, val perf: 44.53 %
+epoch: 44, training time: 15.65 secs, train perf: 98.80 %, val perf: 45.31 %
+epoch: 45, training time: 15.64 secs, train perf: 98.99 %, val perf: 47.27 %
+epoch: 46, training time: 15.69 secs, train perf: 99.22 %, val perf: 43.75 %
+epoch: 47, training time: 15.60 secs, train perf: 99.12 %, val perf: 44.92 %
+epoch: 48, training time: 15.65 secs, train perf: 99.24 %, val perf: 44.92 %
+epoch: 49, training time: 15.64 secs, train perf: 99.35 %, val perf: 44.53 %
+epoch: 50, training time: 15.65 secs, train perf: 99.38 %, val perf: 44.53 %
+epochs 50
+batch size 256
+test perf: 0.46302402261
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 32), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 59.76 secs, train perf: 44.60 %, val perf: 50.00 %
+epoch: 2, training time: 30.91 secs, train perf: 55.13 %, val perf: 40.62 %
+epoch: 3, training time: 21.19 secs, train perf: 65.28 %, val perf: 25.00 %
+epoch: 4, training time: 10.71 secs, train perf: 75.18 %, val perf: 31.25 %
+epoch: 5, training time: 41.41 secs, train perf: 84.72 %, val perf: 40.62 %
+epoch: 6, training time: 59.55 secs, train perf: 88.29 %, val perf: 40.62 %
+epoch: 7, training time: 59.64 secs, train perf: 93.42 %, val perf: 40.62 %
+epoch: 8, training time: 59.62 secs, train perf: 96.06 %, val perf: 40.62 %
+epoch: 9, training time: 59.72 secs, train perf: 97.19 %, val perf: 40.62 %
+epoch: 10, training time: 59.74 secs, train perf: 98.87 %, val perf: 40.62 %
+epoch: 11, training time: 59.71 secs, train perf: 98.66 %, val perf: 40.62 %
+epoch: 12, training time: 32.55 secs, train perf: 99.52 %, val perf: 37.50 %
+epoch: 13, training time: 21.85 secs, train perf: 99.66 %, val perf: 40.62 %
+epoch: 14, training time: 10.67 secs, train perf: 99.73 %, val perf: 43.75 %
+epoch: 15, training time: 43.00 secs, train perf: 99.84 %, val perf: 43.75 %
+epoch: 16, training time: 59.66 secs, train perf: 99.84 %, val perf: 40.62 %
+epoch: 17, training time: 59.62 secs, train perf: 99.90 %, val perf: 46.88 %
+epoch: 18, training time: 59.54 secs, train perf: 99.94 %, val perf: 43.75 %
+epoch: 19, training time: 59.64 secs, train perf: 99.95 %, val perf: 40.62 %
+epoch: 20, training time: 59.77 secs, train perf: 99.94 %, val perf: 46.88 %
+epoch: 21, training time: 59.66 secs, train perf: 99.95 %, val perf: 43.75 %
+epoch: 22, training time: 32.34 secs, train perf: 99.98 %, val perf: 46.88 %
+epoch: 23, training time: 20.65 secs, train perf: 99.99 %, val perf: 40.62 %
+epoch: 24, training time: 10.51 secs, train perf: 99.99 %, val perf: 46.88 %
+epoch: 25, training time: 37.04 secs, train perf: 99.99 %, val perf: 50.00 %
+epoch: 26, training time: 59.65 secs, train perf: 100.00 %, val perf: 50.00 %
+epoch: 27, training time: 59.59 secs, train perf: 99.99 %, val perf: 40.62 %
+epoch: 28, training time: 59.70 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 29, training time: 59.66 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 30, training time: 59.64 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 31, training time: 59.63 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 32, training time: 35.75 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 33, training time: 22.88 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 34, training time: 10.75 secs, train perf: 99.99 %, val perf: 50.00 %
+epoch: 35, training time: 40.51 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 36, training time: 59.54 secs, train perf: 99.99 %, val perf: 50.00 %
+epoch: 37, training time: 59.66 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 38, training time: 59.57 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 39, training time: 59.47 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 40, training time: 59.59 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 41, training time: 59.70 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 42, training time: 33.91 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 43, training time: 21.49 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 44, training time: 10.36 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 45, training time: 36.88 secs, train perf: 100.00 %, val perf: 50.00 %
+epoch: 46, training time: 59.62 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 47, training time: 59.50 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 48, training time: 59.67 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 49, training time: 59.57 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 50, training time: 59.61 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 51, training time: 59.67 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 52, training time: 36.23 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 53, training time: 22.89 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 54, training time: 10.56 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 55, training time: 43.20 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 56, training time: 59.52 secs, train perf: 100.00 %, val perf: 50.00 %
+epoch: 57, training time: 59.51 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 58, training time: 59.64 secs, train perf: 100.00 %, val perf: 50.00 %
+epoch: 59, training time: 59.84 secs, train perf: 100.00 %, val perf: 50.00 %
+epoch: 60, training time: 59.68 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 61, training time: 59.73 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 62, training time: 32.28 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 63, training time: 19.04 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 64, training time: 10.84 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 65, training time: 51.40 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 66, training time: 59.60 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 67, training time: 59.53 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 68, training time: 59.56 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 69, training time: 59.67 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 70, training time: 59.58 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 71, training time: 57.10 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 72, training time: 30.14 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 73, training time: 15.38 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 74, training time: 14.61 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 75, training time: 59.55 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 76, training time: 59.45 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 77, training time: 59.51 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 78, training time: 59.59 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 79, training time: 59.77 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 80, training time: 59.61 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 81, training time: 50.40 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 82, training time: 30.54 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 83, training time: 10.60 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 84, training time: 21.89 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 85, training time: 59.58 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 86, training time: 59.55 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 87, training time: 59.61 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 88, training time: 59.61 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 89, training time: 59.67 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 90, training time: 59.74 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 91, training time: 45.48 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 92, training time: 28.60 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 93, training time: 10.30 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 94, training time: 33.03 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 95, training time: 59.67 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 96, training time: 59.56 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 97, training time: 59.60 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 98, training time: 59.55 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 99, training time: 59.57 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 100, training time: 59.66 secs, train perf: 100.00 %, val perf: 50.00 %
+epochs 100
+batch size 32
+test perf: 0.437117286858
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 64), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 22.69 secs, train perf: 39.60 %, val perf: 25.00 %
+epoch: 2, training time: 18.47 secs, train perf: 48.43 %, val perf: 35.94 %
+epoch: 3, training time: 13.16 secs, train perf: 52.20 %, val perf: 32.81 %
+epoch: 4, training time: 6.41 secs, train perf: 61.48 %, val perf: 37.50 %
+epoch: 5, training time: 7.35 secs, train perf: 68.39 %, val perf: 35.94 %
+epoch: 6, training time: 30.15 secs, train perf: 77.71 %, val perf: 34.38 %
+epoch: 7, training time: 34.21 secs, train perf: 82.49 %, val perf: 34.38 %
+epoch: 8, training time: 34.20 secs, train perf: 85.01 %, val perf: 35.94 %
+epoch: 9, training time: 34.02 secs, train perf: 89.57 %, val perf: 32.81 %
+epoch: 10, training time: 34.02 secs, train perf: 91.68 %, val perf: 34.38 %
+epoch: 11, training time: 34.39 secs, train perf: 96.01 %, val perf: 37.50 %
+epoch: 12, training time: 34.03 secs, train perf: 97.51 %, val perf: 35.94 %
+epoch: 13, training time: 34.27 secs, train perf: 97.95 %, val perf: 34.38 %
+epoch: 14, training time: 34.26 secs, train perf: 98.86 %, val perf: 29.69 %
+epoch: 15, training time: 33.96 secs, train perf: 99.29 %, val perf: 34.38 %
+epoch: 16, training time: 34.16 secs, train perf: 99.42 %, val perf: 37.50 %
+epoch: 17, training time: 34.11 secs, train perf: 99.54 %, val perf: 32.81 %
+epoch: 18, training time: 20.35 secs, train perf: 99.47 %, val perf: 31.25 %
+epoch: 19, training time: 18.43 secs, train perf: 99.69 %, val perf: 34.38 %
+epoch: 20, training time: 11.91 secs, train perf: 99.77 %, val perf: 32.81 %
+epoch: 21, training time: 6.73 secs, train perf: 99.84 %, val perf: 39.06 %
+epoch: 22, training time: 8.32 secs, train perf: 99.88 %, val perf: 34.38 %
+epoch: 23, training time: 34.19 secs, train perf: 99.94 %, val perf: 35.94 %
+epoch: 24, training time: 34.13 secs, train perf: 99.96 %, val perf: 34.38 %
+epoch: 25, training time: 34.15 secs, train perf: 99.98 %, val perf: 35.94 %
+epoch: 26, training time: 34.12 secs, train perf: 99.98 %, val perf: 35.94 %
+epoch: 27, training time: 34.24 secs, train perf: 99.96 %, val perf: 35.94 %
+epoch: 28, training time: 33.99 secs, train perf: 99.98 %, val perf: 35.94 %
+epoch: 29, training time: 34.27 secs, train perf: 99.98 %, val perf: 37.50 %
+epoch: 30, training time: 34.07 secs, train perf: 99.96 %, val perf: 35.94 %
+epoch: 31, training time: 34.23 secs, train perf: 99.98 %, val perf: 35.94 %
+epoch: 32, training time: 34.15 secs, train perf: 99.98 %, val perf: 35.94 %
+epoch: 33, training time: 34.23 secs, train perf: 99.98 %, val perf: 35.94 %
+epoch: 34, training time: 33.02 secs, train perf: 99.98 %, val perf: 39.06 %
+epoch: 35, training time: 18.63 secs, train perf: 99.99 %, val perf: 39.06 %
+epoch: 36, training time: 18.53 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 37, training time: 9.22 secs, train perf: 99.96 %, val perf: 39.06 %
+epoch: 38, training time: 7.07 secs, train perf: 100.00 %, val perf: 35.94 %
+epoch: 39, training time: 18.84 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 40, training time: 34.18 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 41, training time: 34.03 secs, train perf: 99.99 %, val perf: 39.06 %
+epoch: 42, training time: 34.12 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 43, training time: 34.23 secs, train perf: 99.99 %, val perf: 35.94 %
+epoch: 44, training time: 34.10 secs, train perf: 99.99 %, val perf: 35.94 %
+epoch: 45, training time: 34.10 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 46, training time: 34.08 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 47, training time: 33.91 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 48, training time: 33.86 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 49, training time: 34.27 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 50, training time: 34.11 secs, train perf: 100.00 %, val perf: 35.94 %
+epoch: 51, training time: 27.23 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 52, training time: 18.16 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 53, training time: 17.39 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 54, training time: 5.96 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 55, training time: 7.14 secs, train perf: 100.00 %, val perf: 32.81 %
+epoch: 56, training time: 19.18 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 57, training time: 34.30 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 58, training time: 34.07 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 59, training time: 34.34 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 60, training time: 34.21 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 61, training time: 34.03 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 62, training time: 33.82 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 63, training time: 34.09 secs, train perf: 100.00 %, val perf: 35.94 %
+epoch: 64, training time: 34.09 secs, train perf: 100.00 %, val perf: 35.94 %
+epoch: 65, training time: 34.19 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 66, training time: 33.94 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 67, training time: 34.08 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 68, training time: 26.95 secs, train perf: 100.00 %, val perf: 35.94 %
+epoch: 69, training time: 18.41 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 70, training time: 17.01 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 71, training time: 6.34 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 72, training time: 7.18 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 73, training time: 18.13 secs, train perf: 99.99 %, val perf: 40.62 %
+epoch: 74, training time: 34.15 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 75, training time: 34.02 secs, train perf: 99.99 %, val perf: 39.06 %
+epoch: 76, training time: 34.15 secs, train perf: 99.99 %, val perf: 37.50 %
+epoch: 77, training time: 34.11 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 78, training time: 33.93 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 79, training time: 34.02 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 80, training time: 34.00 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 81, training time: 34.16 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 82, training time: 34.11 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 83, training time: 34.04 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 84, training time: 34.11 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 85, training time: 28.04 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 86, training time: 18.43 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 87, training time: 17.65 secs, train perf: 100.00 %, val perf: 40.62 %
+epoch: 88, training time: 5.91 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 89, training time: 7.41 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 90, training time: 21.63 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 91, training time: 34.13 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 92, training time: 34.14 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 93, training time: 34.04 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 94, training time: 34.19 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 95, training time: 34.17 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 96, training time: 34.01 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 97, training time: 34.21 secs, train perf: 100.00 %, val perf: 39.06 %
+epoch: 98, training time: 34.30 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 99, training time: 33.96 secs, train perf: 100.00 %, val perf: 37.50 %
+epoch: 100, training time: 34.16 secs, train perf: 100.00 %, val perf: 37.50 %
+epochs 100
+batch size 64
+test perf: 0.438059349976
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 128), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 21.01 secs, train perf: 28.21 %, val perf: 47.66 %
+epoch: 2, training time: 21.08 secs, train perf: 38.11 %, val perf: 28.91 %
+epoch: 3, training time: 11.88 secs, train perf: 44.65 %, val perf: 50.00 %
+epoch: 4, training time: 12.14 secs, train perf: 50.17 %, val perf: 49.22 %
+epoch: 5, training time: 11.97 secs, train perf: 51.97 %, val perf: 43.75 %
+epoch: 6, training time: 9.40 secs, train perf: 57.68 %, val perf: 46.88 %
+epoch: 7, training time: 3.86 secs, train perf: 62.84 %, val perf: 46.09 %
+epoch: 8, training time: 4.29 secs, train perf: 66.54 %, val perf: 48.44 %
+epoch: 9, training time: 4.41 secs, train perf: 72.67 %, val perf: 46.09 %
+epoch: 10, training time: 5.51 secs, train perf: 77.36 %, val perf: 45.31 %
+epoch: 11, training time: 21.00 secs, train perf: 79.36 %, val perf: 42.97 %
+epoch: 12, training time: 20.99 secs, train perf: 80.41 %, val perf: 44.53 %
+epoch: 13, training time: 20.99 secs, train perf: 84.01 %, val perf: 42.97 %
+epoch: 14, training time: 21.00 secs, train perf: 88.57 %, val perf: 44.53 %
+epoch: 15, training time: 21.00 secs, train perf: 90.28 %, val perf: 43.75 %
+epoch: 16, training time: 20.99 secs, train perf: 94.14 %, val perf: 42.97 %
+epoch: 17, training time: 20.99 secs, train perf: 95.39 %, val perf: 42.19 %
+epoch: 18, training time: 20.99 secs, train perf: 96.24 %, val perf: 42.19 %
+epoch: 19, training time: 20.99 secs, train perf: 97.02 %, val perf: 46.88 %
+epoch: 20, training time: 21.00 secs, train perf: 96.73 %, val perf: 41.41 %
+epoch: 21, training time: 20.99 secs, train perf: 98.41 %, val perf: 42.19 %
+epoch: 22, training time: 21.00 secs, train perf: 98.61 %, val perf: 44.53 %
+epoch: 23, training time: 21.01 secs, train perf: 98.69 %, val perf: 44.53 %
+epoch: 24, training time: 20.99 secs, train perf: 98.75 %, val perf: 39.84 %
+epoch: 25, training time: 20.99 secs, train perf: 99.38 %, val perf: 42.97 %
+epoch: 26, training time: 20.73 secs, train perf: 99.33 %, val perf: 43.75 %
+epoch: 27, training time: 20.99 secs, train perf: 99.46 %, val perf: 42.97 %
+epoch: 28, training time: 20.99 secs, train perf: 99.54 %, val perf: 44.53 %
+epoch: 29, training time: 21.00 secs, train perf: 99.23 %, val perf: 39.84 %
+epoch: 30, training time: 20.58 secs, train perf: 99.68 %, val perf: 41.41 %
+epoch: 31, training time: 11.78 secs, train perf: 99.66 %, val perf: 39.84 %
+epoch: 32, training time: 11.80 secs, train perf: 99.72 %, val perf: 44.53 %
+epoch: 33, training time: 12.00 secs, train perf: 99.76 %, val perf: 42.19 %
+epoch: 34, training time: 9.07 secs, train perf: 99.79 %, val perf: 42.19 %
+epoch: 35, training time: 3.76 secs, train perf: 99.85 %, val perf: 42.97 %
+epoch: 36, training time: 4.24 secs, train perf: 99.84 %, val perf: 41.41 %
+epoch: 37, training time: 4.44 secs, train perf: 99.80 %, val perf: 44.53 %
+epoch: 38, training time: 7.50 secs, train perf: 99.84 %, val perf: 43.75 %
+epoch: 39, training time: 21.08 secs, train perf: 99.89 %, val perf: 44.53 %
+epoch: 40, training time: 20.95 secs, train perf: 99.87 %, val perf: 42.97 %
+epoch: 41, training time: 21.00 secs, train perf: 99.87 %, val perf: 41.41 %
+epoch: 42, training time: 21.04 secs, train perf: 99.90 %, val perf: 46.09 %
+epoch: 43, training time: 21.00 secs, train perf: 99.94 %, val perf: 45.31 %
+epoch: 44, training time: 21.26 secs, train perf: 99.91 %, val perf: 44.53 %
+epoch: 45, training time: 21.17 secs, train perf: 99.91 %, val perf: 44.53 %
+epoch: 46, training time: 21.27 secs, train perf: 99.93 %, val perf: 43.75 %
+epoch: 47, training time: 21.30 secs, train perf: 99.98 %, val perf: 47.66 %
+epoch: 48, training time: 21.01 secs, train perf: 99.95 %, val perf: 43.75 %
+epoch: 49, training time: 21.16 secs, train perf: 99.98 %, val perf: 46.88 %
+epoch: 50, training time: 21.27 secs, train perf: 99.99 %, val perf: 42.19 %
+epoch: 51, training time: 21.29 secs, train perf: 99.96 %, val perf: 46.09 %
+epoch: 52, training time: 20.99 secs, train perf: 99.99 %, val perf: 46.09 %
+epoch: 53, training time: 21.17 secs, train perf: 99.98 %, val perf: 45.31 %
+epoch: 54, training time: 20.84 secs, train perf: 99.98 %, val perf: 42.97 %
+epoch: 55, training time: 20.99 secs, train perf: 99.98 %, val perf: 46.09 %
+epoch: 56, training time: 21.00 secs, train perf: 99.99 %, val perf: 45.31 %
+epoch: 57, training time: 21.19 secs, train perf: 99.98 %, val perf: 44.53 %
+epoch: 58, training time: 18.38 secs, train perf: 99.98 %, val perf: 42.97 %
+epoch: 59, training time: 11.47 secs, train perf: 99.98 %, val perf: 48.44 %
+epoch: 60, training time: 11.42 secs, train perf: 99.99 %, val perf: 42.97 %
+epoch: 61, training time: 11.43 secs, train perf: 99.98 %, val perf: 45.31 %
+epoch: 62, training time: 7.67 secs, train perf: 99.98 %, val perf: 45.31 %
+epoch: 63, training time: 3.52 secs, train perf: 99.98 %, val perf: 46.09 %
+epoch: 64, training time: 3.66 secs, train perf: 99.98 %, val perf: 46.09 %
+epoch: 65, training time: 3.73 secs, train perf: 99.99 %, val perf: 44.53 %
+epoch: 66, training time: 3.64 secs, train perf: 99.99 %, val perf: 44.53 %
+epoch: 67, training time: 10.88 secs, train perf: 99.99 %, val perf: 44.53 %
+epoch: 68, training time: 20.98 secs, train perf: 99.99 %, val perf: 45.31 %
+epoch: 69, training time: 20.99 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 70, training time: 20.99 secs, train perf: 100.00 %, val perf: 43.75 %
+epoch: 71, training time: 20.99 secs, train perf: 99.99 %, val perf: 46.09 %
+epoch: 72, training time: 20.99 secs, train perf: 100.00 %, val perf: 45.31 %
+epoch: 73, training time: 21.00 secs, train perf: 99.99 %, val perf: 46.88 %
+epoch: 74, training time: 20.99 secs, train perf: 99.99 %, val perf: 44.53 %
+epoch: 75, training time: 21.27 secs, train perf: 99.99 %, val perf: 46.09 %
+epoch: 76, training time: 20.99 secs, train perf: 99.99 %, val perf: 46.09 %
+epoch: 77, training time: 20.99 secs, train perf: 100.00 %, val perf: 47.66 %
+epoch: 78, training time: 21.00 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 79, training time: 20.99 secs, train perf: 99.99 %, val perf: 46.09 %
+epoch: 80, training time: 20.99 secs, train perf: 99.99 %, val perf: 47.66 %
+epoch: 81, training time: 21.00 secs, train perf: 99.99 %, val perf: 47.66 %
+epoch: 82, training time: 21.30 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 83, training time: 20.99 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 84, training time: 20.98 secs, train perf: 100.00 %, val perf: 45.31 %
+epoch: 85, training time: 21.00 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 86, training time: 21.47 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 87, training time: 16.87 secs, train perf: 99.99 %, val perf: 45.31 %
+epoch: 88, training time: 11.84 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 89, training time: 12.11 secs, train perf: 100.00 %, val perf: 47.66 %
+epoch: 90, training time: 11.97 secs, train perf: 100.00 %, val perf: 47.66 %
+epoch: 91, training time: 5.45 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 92, training time: 4.19 secs, train perf: 100.00 %, val perf: 47.66 %
+epoch: 93, training time: 4.33 secs, train perf: 100.00 %, val perf: 45.31 %
+epoch: 94, training time: 6.45 secs, train perf: 100.00 %, val perf: 46.09 %
+epoch: 95, training time: 20.91 secs, train perf: 99.99 %, val perf: 45.31 %
+epoch: 96, training time: 21.03 secs, train perf: 100.00 %, val perf: 49.22 %
+epoch: 97, training time: 20.96 secs, train perf: 100.00 %, val perf: 45.31 %
+epoch: 98, training time: 21.19 secs, train perf: 100.00 %, val perf: 46.88 %
+epoch: 99, training time: 20.99 secs, train perf: 100.00 %, val perf: 45.31 %
+epoch: 100, training time: 20.99 secs, train perf: 100.00 %, val perf: 47.66 %
+epochs 100
+batch size 128
+test perf: 0.411681582666
+[('image shape', 64, 300), ('filter shape', [(100, 1, 3, 300), (100, 1, 4, 300), (100, 1, 5, 300)]), ('hidden_units', [100, 5]), ('dropout', [0.5]), ('batch_size', 256), ('non_static', True), ('learn_decay', 0.95), ('conv_non_linear', 'relu'), ('non_static', True), ('sqr_norm_lim', 9), ('shuffle_batch', True)]
+... training
+epoch: 1, training time: 15.49 secs, train perf: 27.28 %, val perf: 45.31 %
+epoch: 2, training time: 15.68 secs, train perf: 34.68 %, val perf: 38.67 %
+epoch: 3, training time: 15.68 secs, train perf: 37.46 %, val perf: 33.59 %
+epoch: 4, training time: 15.63 secs, train perf: 40.08 %, val perf: 38.28 %
+epoch: 5, training time: 15.60 secs, train perf: 43.25 %, val perf: 37.50 %
+epoch: 6, training time: 15.64 secs, train perf: 47.17 %, val perf: 45.31 %
+epoch: 7, training time: 15.59 secs, train perf: 48.90 %, val perf: 47.27 %
+epoch: 8, training time: 15.48 secs, train perf: 50.60 %, val perf: 46.48 %
+epoch: 9, training time: 15.55 secs, train perf: 51.23 %, val perf: 47.66 %
+epoch: 10, training time: 15.58 secs, train perf: 56.02 %, val perf: 43.36 %
+epoch: 11, training time: 15.55 secs, train perf: 59.62 %, val perf: 46.09 %
+epoch: 12, training time: 15.64 secs, train perf: 61.39 %, val perf: 45.31 %
+epoch: 13, training time: 15.64 secs, train perf: 64.00 %, val perf: 47.27 %
+epoch: 14, training time: 15.64 secs, train perf: 61.72 %, val perf: 45.31 %
+epoch: 15, training time: 15.65 secs, train perf: 68.69 %, val perf: 44.53 %
+epoch: 16, training time: 15.67 secs, train perf: 73.41 %, val perf: 47.27 %
+epoch: 17, training time: 15.59 secs, train perf: 74.65 %, val perf: 46.09 %
+epoch: 18, training time: 15.65 secs, train perf: 73.38 %, val perf: 44.53 %
+epoch: 19, training time: 14.02 secs, train perf: 77.23 %, val perf: 44.53 %
+epoch: 20, training time: 8.84 secs, train perf: 76.93 %, val perf: 46.88 %
+epoch: 21, training time: 9.10 secs, train perf: 82.93 %, val perf: 48.05 %
+epoch: 22, training time: 9.04 secs, train perf: 84.99 %, val perf: 48.05 %
+epoch: 23, training time: 9.04 secs, train perf: 88.40 %, val perf: 43.36 %
+epoch: 24, training time: 7.26 secs, train perf: 85.83 %, val perf: 45.70 %
+epoch: 25, training time: 3.04 secs, train perf: 84.02 %, val perf: 44.92 %
+epoch: 26, training time: 3.18 secs, train perf: 89.97 %, val perf: 46.88 %
+epoch: 27, training time: 3.23 secs, train perf: 89.99 %, val perf: 47.27 %
+epoch: 28, training time: 3.26 secs, train perf: 92.88 %, val perf: 46.09 %
+epoch: 29, training time: 3.01 secs, train perf: 89.87 %, val perf: 48.05 %
+epoch: 30, training time: 15.49 secs, train perf: 94.60 %, val perf: 44.53 %
+epoch: 31, training time: 15.58 secs, train perf: 95.46 %, val perf: 43.75 %
+epoch: 32, training time: 15.64 secs, train perf: 95.54 %, val perf: 44.14 %
+epoch: 33, training time: 15.61 secs, train perf: 96.07 %, val perf: 42.58 %
+epoch: 34, training time: 15.64 secs, train perf: 96.84 %, val perf: 42.58 %
+epoch: 35, training time: 15.63 secs, train perf: 97.18 %, val perf: 45.70 %
+epoch: 36, training time: 15.64 secs, train perf: 97.13 %, val perf: 44.92 %
+epoch: 37, training time: 15.64 secs, train perf: 97.67 %, val perf: 42.97 %
+epoch: 38, training time: 15.61 secs, train perf: 98.13 %, val perf: 44.14 %
+epoch: 39, training time: 15.66 secs, train perf: 98.32 %, val perf: 43.36 %
+epoch: 40, training time: 15.63 secs, train perf: 98.30 %, val perf: 43.75 %
+epoch: 41, training time: 15.56 secs, train perf: 98.71 %, val perf: 44.14 %
+epoch: 42, training time: 15.40 secs, train perf: 98.75 %, val perf: 42.19 %
+epoch: 43, training time: 15.51 secs, train perf: 98.78 %, val perf: 45.31 %
+epoch: 44, training time: 15.64 secs, train perf: 98.91 %, val perf: 45.31 %
+epoch: 45, training time: 15.64 secs, train perf: 98.89 %, val perf: 45.70 %
+epoch: 46, training time: 15.64 secs, train perf: 99.21 %, val perf: 42.97 %
+epoch: 47, training time: 15.64 secs, train perf: 99.13 %, val perf: 43.36 %
+epoch: 48, training time: 15.64 secs, train perf: 99.22 %, val perf: 45.31 %
+epoch: 49, training time: 15.63 secs, train perf: 99.34 %, val perf: 43.36 %
+epoch: 50, training time: 15.66 secs, train perf: 99.32 %, val perf: 43.36 %
+epoch: 51, training time: 15.61 secs, train perf: 99.45 %, val perf: 42.19 %
+epoch: 52, training time: 15.64 secs, train perf: 99.49 %, val perf: 43.75 %
+epoch: 53, training time: 15.64 secs, train perf: 99.57 %, val perf: 44.53 %
+epoch: 54, training time: 15.66 secs, train perf: 99.55 %, val perf: 46.88 %
+epoch: 55, training time: 15.62 secs, train perf: 99.62 %, val perf: 44.92 %
+epoch: 56, training time: 15.64 secs, train perf: 99.66 %, val perf: 46.09 %
+epoch: 57, training time: 14.65 secs, train perf: 99.65 %, val perf: 42.97 %
+epoch: 58, training time: 9.00 secs, train perf: 99.68 %, val perf: 45.70 %
+epoch: 59, training time: 9.02 secs, train perf: 99.69 %, val perf: 45.31 %
+epoch: 60, training time: 9.06 secs, train perf: 99.76 %, val perf: 44.92 %
+epoch: 61, training time: 9.01 secs, train perf: 99.72 %, val perf: 42.19 %
+epoch: 62, training time: 8.17 secs, train perf: 99.76 %, val perf: 45.70 %
+epoch: 63, training time: 2.99 secs, train perf: 99.79 %, val perf: 46.48 %
+epoch: 64, training time: 3.06 secs, train perf: 99.78 %, val perf: 43.36 %
+epoch: 65, training time: 3.25 secs, train perf: 99.79 %, val perf: 42.58 %
+epoch: 66, training time: 3.30 secs, train perf: 99.82 %, val perf: 44.53 %
+epoch: 67, training time: 14.52 secs, train perf: 99.80 %, val perf: 46.48 %
+epoch: 68, training time: 15.60 secs, train perf: 99.80 %, val perf: 43.75 %
+epoch: 69, training time: 15.59 secs, train perf: 99.79 %, val perf: 44.53 %
+epoch: 70, training time: 15.64 secs, train perf: 99.82 %, val perf: 44.53 %
+epoch: 71, training time: 15.65 secs, train perf: 99.82 %, val perf: 43.75 %
+epoch: 72, training time: 15.63 secs, train perf: 99.83 %, val perf: 44.92 %
+epoch: 73, training time: 15.68 secs, train perf: 99.87 %, val perf: 44.14 %
+epoch: 74, training time: 15.59 secs, train perf: 99.89 %, val perf: 43.75 %
+epoch: 75, training time: 15.64 secs, train perf: 99.88 %, val perf: 44.14 %
+epoch: 76, training time: 15.65 secs, train perf: 99.93 %, val perf: 46.48 %
+epoch: 77, training time: 15.64 secs, train perf: 99.96 %, val perf: 42.97 %
+epoch: 78, training time: 15.63 secs, train perf: 99.96 %, val perf: 44.92 %
+epoch: 79, training time: 15.66 secs, train perf: 99.88 %, val perf: 39.84 %
+epoch: 80, training time: 15.66 secs, train perf: 99.94 %, val perf: 43.36 %
+epoch: 81, training time: 15.64 secs, train perf: 99.91 %, val perf: 44.53 %
+epoch: 82, training time: 15.61 secs, train perf: 99.96 %, val perf: 44.14 %
+epoch: 83, training time: 15.62 secs, train perf: 99.96 %, val perf: 44.53 %
+epoch: 84, training time: 15.66 secs, train perf: 99.96 %, val perf: 42.58 %
+epoch: 85, training time: 15.62 secs, train perf: 99.95 %, val perf: 45.31 %
+epoch: 86, training time: 15.66 secs, train perf: 99.95 %, val perf: 46.09 %
+epoch: 87, training time: 15.62 secs, train perf: 99.98 %, val perf: 44.53 %
+epoch: 88, training time: 15.66 secs, train perf: 99.98 %, val perf: 44.14 %
+epoch: 89, training time: 15.61 secs, train perf: 99.98 %, val perf: 47.27 %
+epoch: 90, training time: 15.68 secs, train perf: 99.98 %, val perf: 44.92 %
+epoch: 91, training time: 15.59 secs, train perf: 99.98 %, val perf: 42.58 %
+epoch: 92, training time: 15.64 secs, train perf: 99.99 %, val perf: 46.48 %
+epoch: 93, training time: 15.63 secs, train perf: 99.99 %, val perf: 44.14 %
+epoch: 94, training time: 15.16 secs, train perf: 99.99 %, val perf: 45.31 %
+epoch: 95, training time: 9.13 secs, train perf: 99.99 %, val perf: 45.31 %
+epoch: 96, training time: 9.12 secs, train perf: 99.99 %, val perf: 41.80 %
+epoch: 97, training time: 9.08 secs, train perf: 99.99 %, val perf: 43.36 %
+epoch: 98, training time: 9.10 secs, train perf: 99.99 %, val perf: 43.75 %
+epoch: 99, training time: 8.04 secs, train perf: 99.99 %, val perf: 43.75 %
+epoch: 100, training time: 3.00 secs, train perf: 99.99 %, val perf: 43.75 %
+epochs 100
+batch size 256
+test perf: 0.469147432878

@@ -1,0 +1,72 @@
+batch_size : 32  nb_epoch : 1   optimizer : rmsprop
+Training Accuracy : 25.7726880944
+Validation Accuracy : 26.4875239694
+Test Accuracy : 28.3560998657
+batch_size : 32  nb_epoch : 1   optimizer : adam
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 32  nb_epoch : 2   optimizer : rmsprop
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 32  nb_epoch : 2   optimizer : adam
+Training Accuracy : 25.7726880944
+Validation Accuracy : 26.4875239694
+Test Accuracy : 28.3560998657
+batch_size : 32  nb_epoch : 3   optimizer : rmsprop
+Training Accuracy : 19.0986331722
+Validation Accuracy : 20.8253358932
+Test Accuracy : 17.7107866241
+batch_size : 32  nb_epoch : 3   optimizer : adam
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 64  nb_epoch : 1   optimizer : rmsprop
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 64  nb_epoch : 1   optimizer : adam
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 64  nb_epoch : 2   optimizer : rmsprop
+Training Accuracy : 15.1459179904
+Validation Accuracy : 15.1631477927
+Test Accuracy : 18.1347150273
+batch_size : 64  nb_epoch : 2   optimizer : adam
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 64  nb_epoch : 3   optimizer : rmsprop
+Training Accuracy : 19.0986331722
+Validation Accuracy : 20.8253358932
+Test Accuracy : 17.7107866241
+batch_size : 64  nb_epoch : 3   optimizer : adam
+Training Accuracy : 25.7726880944
+Validation Accuracy : 26.4875239694
+Test Accuracy : 28.3560998657
+batch_size : 128  nb_epoch : 1   optimizer : rmsprop
+Training Accuracy : 19.0986331722
+Validation Accuracy : 20.8253358932
+Test Accuracy : 17.7107866241
+batch_size : 128  nb_epoch : 1   optimizer : adam
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 128  nb_epoch : 2   optimizer : rmsprop
+Training Accuracy : 27.2995936456
+Validation Accuracy : 24.856046066
+Test Accuracy : 23.080546398
+batch_size : 128  nb_epoch : 2   optimizer : adam
+Training Accuracy : 25.7726880944
+Validation Accuracy : 26.4875239694
+Test Accuracy : 28.3560998657
+batch_size : 128  nb_epoch : 3   optimizer : rmsprop
+Training Accuracy : 19.0986331722
+Validation Accuracy : 20.8253358932
+Test Accuracy : 17.7107866241
+batch_size : 128  nb_epoch : 3   optimizer : adam
+Training Accuracy : 25.7726880944
+Validation Accuracy : 26.4875239694
+Test Accuracy : 28.3560998657

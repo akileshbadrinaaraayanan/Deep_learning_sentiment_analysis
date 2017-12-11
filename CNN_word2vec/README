@@ -1,0 +1,4 @@
+THEANO_FLAGS='floatX=float32,device=gpu1,nvcc.fastmath=True,optimizer_including=cudnn' python conv_net_sentence.py   -nonstatic -word2vec
+
+THEANO_FLAGS='floatX=float32,device=gpu1,nvcc.fastmath=True,optimizer_including=cudnn' python conv_net_sentence.py   -static -word2vec
+
